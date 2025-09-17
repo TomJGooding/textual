@@ -63,7 +63,7 @@ async def test_widget_construct():
         ["visible", True, "visible"],
     ],
 )
-def test_widget_set_visible_true(set_val, get_val, style_str):
+async def test_widget_set_visible_true(set_val, get_val, style_str):
     widget = Widget()
     widget.visible = set_val
 
